@@ -1,5 +1,5 @@
 import config from '../config'
-
+//what is local storage and why are we accessing it through window object
 const TokenService = {
   saveAuthToken(token) {
     window.localStorage.setItem(config.TOKEN_KEY, token)
